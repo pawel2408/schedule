@@ -1,11 +1,3 @@
-// setInterval(clock, 1000)
-//     document.getElementById("clock")
-//     document.getLcoaltime;
-
-// document.getElementsByClassName("lectures");
-
-// addEventListener();
-
 function display_c()
 {
     var refresh = 1000; // Refresh rate in milli seconds
@@ -43,7 +35,7 @@ function myFunction()
     var z = document.getElementsByClassName("exercises");
     //y[0].innerHTML = "Hello World!";
     var i;
-    for(i = 0; i < y.length; i++){
+    for(i = 0; i < z.length; i++){
         z[i].classList.remove("highlight");
     }
 }
@@ -54,7 +46,6 @@ function myFunction()
 function myFunction2() 
 {
     var y = document.getElementsByClassName("exercises");
-    //y[0].innerHTML = "Hello World!";
     var i;
     for(i = 0; i < y.length; i++){
         y[i].classList.add("highlight");
@@ -62,16 +53,30 @@ function myFunction2()
     
 
     var p = document.getElementsByClassName("lectures");
-    //y[0].innerHTML = "Hello World!";
     var i;
     for(i = 0; i < p.length; i++){
         p[i].classList.remove("highlight");
     }
 }
-
       
     let b1 =document.getElementById("b1");
     b1.addEventListener("click", myFunction2);
 
-      
-// document.getElementsByClassName("lectures");
+    function myFunction3() 
+    {
+        var p = document.getElementsByClassName("lectures");
+        var i;
+        for(i = 0; i < p.length; i++){
+            p[i].classList.remove("highlight");
+        }
+
+        var z = document.getElementsByClassName("exercises");
+        //y[0].innerHTML = "Hello World!";
+        var i;
+        for(i = 0; i < z.length; i++){
+            z[i].classList.remove("highlight");
+        }
+    }
+
+    let b3 =document.getElementById("b3");
+    b3.addEventListener("click", myFunction3);
