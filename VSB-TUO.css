@@ -1,0 +1,115 @@
+tr {
+    height: 5rem;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    width: 7rem;
+    min-width: 8rem;
+}
+
+#b1{
+    background-color: royalblue;
+}
+#b2{
+    background-color: orangered;
+}
+#b3{
+    background-color: yellowgreen;
+}
+
+.clock{
+    width: 7rem;
+    height: 7rem;
+    text-align: center;
+    background-color: teal;
+    padding: 1rem;
+    margin: 3rem;
+    /* border: tomato; */
+    border-left-color: tomato;
+    border-left-width: 0.4rem;
+    border-bottom-color: tomato;
+    border-bottom-width: 0.4rem;
+    border-radius: 50%;
+}
+
+.lectures {
+    background-color: skyblue;
+    
+}
+.lectures:hover{
+    background-color: yellowgreen;
+    /* opacity: 1.0; */
+}
+.lectures2{
+    background-color: violet;   
+}
+.lecturesDisactive{
+    opacity: 0.5;
+}
+
+.exercises {
+    background-color: rgb(255, 94, 0);
+}
+.exercises:hover{
+    background-color: tomato;
+}
+.exercises2 {
+    opacity: 0.5;
+}
+.exercisesActive {
+    background-color: red;
+}
+
+.highlight {
+    opacity: 0.5;
+}
+.highlight2 {
+    background-color: snow;
+    opacity: 0.7;
+}
+
+
+/* =================Fixed landing Page Swction -----*/
+
+body {
+    background-image: url('../img/pexels-eberhard-grossgasteiger-3389536.jpg');
+    background-position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transfrom;
+    display: table;
+}
+
+.VSB{
+    color: teal;
+}
+
+#timer {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    margin-top: -5px;
+}
+
+#timer div:first-child {
+    position: relative;
+    width:12px;
+    height: 12px;
+    border-radius:50%;
+    background-color: red;
+    margin-left: -4px;
+}
+
+#timer div:nth-child(2) {
+    position: relative;
+    width: 3px;
+    height: 100%;
+    background-color: red;
+    margin-top: -6px;
+}
