@@ -74,7 +74,7 @@ th {
 /* =================Fixed landing Page Swction -----*/
 
 body {
-    background-image: url('../img/pexels-eberhard-grossgasteiger-3389536.jpg');
+    background-image: url('pexels-eberhard-grossgasteiger-3389536.jpg');
     background-position: fixed;
     height: 100%;
     width: 100%;
